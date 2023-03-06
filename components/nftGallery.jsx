@@ -130,7 +130,6 @@ export default function NFTGallery({}) {
 			  >
 				<img
 					src="webhook.svg"
-					color='gray'
 				></img>
 				</motion.div>
 			) : (
