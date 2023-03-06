@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "../styles/NftGallery.module.css";
 import { useAccount } from "wagmi";
-
+import { motion } from "framer-motion"
 export default function NFTGallery({}) {
 	const [nfts, setNfts] = useState();
 	const [walletOrCollectionAddress, setWalletOrCollectionAddress] =
@@ -68,6 +68,15 @@ export default function NFTGallery({}) {
 		fetchNFTs();
 	}, [spamFilter]);
 
+	const MyComponent = () => (
+		<motion.div
+		  animate={{
+			scale: [1, 2, 2, 1, 1],
+			rotate: [0, 0, 270, 270, 0],
+			borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+		  }}
+		/>
+	  )
 	return (
 		<div className={styles.nft_gallery_page}>
 			<div>

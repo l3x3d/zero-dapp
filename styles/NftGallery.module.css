@@ -56,7 +56,7 @@
     background-color:#ECF0F9 ;
     outline: none;
     border: none;
-    color: #0057DA;
+    color: slategray;
 }
 
 .input_button_container input{
@@ -74,7 +74,7 @@ width: 528px;
     padding: .6rem 1rem;
     display: flex;
     border-radius: 3px;
-    background-color: black;
+    background-color: slategray;
     cursor: pointer;
     border-radius: 8px;
 
@@ -85,7 +85,7 @@ width: 528px;
     padding: .6rem 1rem;
     display: flex;
     border-radius: 3px;
-    background-color: black;
+    background-color: slategray;
     cursor: pointer;
     border-radius: 8px;
     color: white;
@@ -93,7 +93,7 @@ width: 528px;
 }
 
 .select_container_alt select{
-    background-color:black ;
+    background-color:slategray ;
     outline: none;
     border: none;
     color:white
