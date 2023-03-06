@@ -5,7 +5,7 @@ import { useAccount } from "wagmi";
 export default function NFTGallery({}) {
 	const [nfts, setNfts] = useState();
 	const [walletOrCollectionAddress, setWalletOrCollectionAddress] =
-		useState("vitalik.eth");
+		useState("");
 	const [fetchMethod, setFetchMethod] = useState("wallet");
 	const [pageKey, setPageKey] = useState(false);
 	const [spamFilter, setSpamFilter] = useState(true);
@@ -16,12 +16,12 @@ export default function NFTGallery({}) {
 	const changeFetchMethod = (e) => {
 		switch (e.target.value) {
 			case "wallet":
-				setWalletOrCollectionAddress("vitalik.eth");
+				setWalletOrCollectionAddress("");
 
 				break;
 			case "collection":
 				setWalletOrCollectionAddress(
-					"0x8a90CAb2b38dba80c64b7734e58Ee1dB38B8992e"
+					""
 				);
 				break;
 			case "connectedWallet":
