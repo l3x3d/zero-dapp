@@ -1,7 +1,7 @@
 
 html,
 body {
-	background-color: 'gray';
+	background-color: slategray;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -17,7 +17,7 @@ p{
 }
 
 a {
-	color: 'gray';
+	color: gray;
 	text-decoration: none;
 }
 

@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   row-gap: 3rem;
+    row-gap: 3rem;
+    background-color: slategray;
 }
 
 .nft_gallery{
@@ -74,7 +75,7 @@ width: 528px;
     padding: .6rem 1rem;
     display: flex;
     border-radius: 3px;
-    background-color: slategray;
+    background-color: gray;
     cursor: pointer;
     border-radius: 8px;
 
@@ -85,7 +86,7 @@ width: 528px;
     padding: .6rem 1rem;
     display: flex;
     border-radius: 3px;
-    background-color: slategray;
+    background-color: gray;
     cursor: pointer;
     border-radius: 8px;
     color: white;
@@ -93,7 +94,7 @@ width: 528px;
 }
 
 .select_container_alt select{
-    background-color:slategray ;
+    background-color: gray ;
     outline: none;
     border: none;
     color:white
@@ -149,7 +150,7 @@ width: 528px;
   }
   
   .card_container {
-    background-color: #fff;
+    background-color: gray;
     width: 100%;
     max-width: 288px;
     max-height: 436px;

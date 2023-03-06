@@ -11,6 +11,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	width: 100%;
+	background-color: slategray;
 }
 
 .docs_box{
@@ -47,4 +48,5 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: slategray;
 }
