@@ -125,8 +125,10 @@ export default function NFTGallery({}) {
 				  animate={{
 				  scale: [1, 1.5, 1.5, 1, 1],
 				  rotate: [0, 0, 360, 720, 0],
-				  borderRadius: ["20%", "20%", "30%", "30%", "20%"],
-				}}  
+				  borderRadius: ["20%", "20%", "25%", "25%", "20%"],
+				 
+				}}
+				  
 			  >
 				<img
 					src="webhook.svg"
