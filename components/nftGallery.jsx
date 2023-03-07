@@ -131,7 +131,7 @@ export default function NFTGallery({}) {
 				  
 			  >
 				<img
-					src="webhook.svg"
+					src="loader.svg"
 				></img>
 				</motion.div>
 			) : (
