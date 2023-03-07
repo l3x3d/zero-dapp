@@ -1,1 +1,2 @@
 .env.local
+.process.env
